@@ -1,0 +1,8 @@
+{
+  "name": "체리홈타이v3 - 인천출장마사지",
+  "description": "인천출장마사지 체리홈타이 프리미엄 24시간 후불제 방문 홈케어 서비스",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
