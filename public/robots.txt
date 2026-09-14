@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://flexv3inchoen.netlify.app/sitemap.xml
+Sitemap: https://flexv3incheon.netlify.app/sitemap.xml
 
 
 
