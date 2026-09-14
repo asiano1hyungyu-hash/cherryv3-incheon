@@ -38,7 +38,7 @@ export const Hero: React.FC<HeroProps> = ({ data }) => {
             </span>
             <span className="text-white">{data.mainKeyword} </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-rose-300 to-rose-500">
-              체리홈타이
+              플랙스홈타이
             </span>
           </h1>
 

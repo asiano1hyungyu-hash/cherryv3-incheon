@@ -39,10 +39,10 @@ export const TemplateV3: React.FC<TemplateV3Props> = ({ data }) => {
         {/* 3. Program & Courses (Transparent Upfront Pricing) */}
         <CoursesSection data={data} />
 
-        {/* 4. About Cherry Home Thai V3 */}
+        {/* 4. About Flex Home Thai V3 */}
         <AboutSection data={data} />
 
-        {/* 5. Why Cherry Home Thai */}
+        {/* 5. Why Flex Home Thai */}
         <WhyUsSection data={data} />
 
         {/* 6. Simple 6-Step Process */}

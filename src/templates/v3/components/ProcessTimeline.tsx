@@ -18,7 +18,7 @@ export const ProcessTimeline: React.FC<ProcessProps> = ({ data }) => {
             <span>SIMPLE 6-STEP BOOKING PROCESS</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-            체리홈타이 간편 이용 방법
+            플랙스홈타이 간편 이용 방법
           </h2>
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-normal">
             누구나 1분 만에 예약하고 내 방에서 편안하게 관리받을 수 있는 단계별 이용 안내입니다.

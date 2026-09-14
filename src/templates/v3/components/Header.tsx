@@ -20,7 +20,7 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
 
   const navLinks = [
     { name: '프로그램', href: '#courses' },
-    { name: '체리홈타이 소개', href: '#about' },
+    { name: '플랙스홈타이 소개', href: '#about' },
     { name: '차별점', href: '#why' },
     { name: '이용방법', href: '#process' },
     { name: `${data.cityKo} 방문지역`, href: '#locations' },
@@ -41,11 +41,11 @@ export const Header: React.FC<HeaderProps> = ({ data }) => {
         {/* Brand Logo */}
         <a href="#" className="flex items-center gap-3 group">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-rose-600 to-rose-900 flex items-center justify-center text-white shadow-lg shadow-rose-950/50 border border-rose-500/30 group-hover:scale-105 transition-transform">
-            <span className="font-serif font-black text-lg tracking-wider">C</span>
+            <span className="font-serif font-black text-lg tracking-wider">F</span>
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold tracking-tight text-white group-hover:text-rose-400 transition-colors font-sans">
-              체리홈타이
+              플랙스홈타이
             </span>
             <span className="text-[11px] text-zinc-400 tracking-tight font-medium">
               {data.cityKo} 프리미엄 1:1 홈케어

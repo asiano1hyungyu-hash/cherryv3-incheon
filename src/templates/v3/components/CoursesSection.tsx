@@ -22,7 +22,7 @@ export const CoursesSection: React.FC<CoursesProps> = ({ data }) => {
             <span>TRANSPARENT ALL-IN-ONE PRICING</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-            체리홈타이 프로그램 및 정찰제 요금표
+            플랙스홈타이 프로그램 및 정찰제 요금표
           </h2>
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-normal">
             추가 요금이나 숨겨진 비용 없이, 모든 시간과 정찰제 가격을 한 화면에서 투명하게 확인하실 수 있습니다.

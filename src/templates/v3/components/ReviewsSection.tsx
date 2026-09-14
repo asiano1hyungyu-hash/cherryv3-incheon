@@ -21,7 +21,7 @@ export const ReviewsSection: React.FC<ReviewsProps> = ({ data }) => {
             {data.cityKo} 실제 고객님들의 솔직한 이용 후기
           </h2>
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-normal">
-            체리홈타이를 직접 경험하신 {data.cityKo} 지역 고객님들의 생생한 만족도 평가입니다.
+            플랙스홈타이를 직접 경험하신 {data.cityKo} 지역 고객님들의 생생한 만족도 평가입니다.
           </p>
         </div>
 

@@ -18,10 +18,10 @@ export const Footer: React.FC<FooterProps> = ({ data }) => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-rose-600 flex items-center justify-center text-white font-serif font-black text-base shadow-md">
-                C
+                F
               </div>
               <span className="text-base font-bold text-white tracking-tight">
-                체리홈타이
+                플랙스홈타이
               </span>
             </div>
             <p className="text-xs text-zinc-400 leading-relaxed">
@@ -100,13 +100,13 @@ export const Footer: React.FC<FooterProps> = ({ data }) => {
         {/* Disclaimer & Copyright */}
         <div className="pt-8 border-t border-zinc-900 text-center space-y-2 text-[11px] text-zinc-400 leading-relaxed">
           <p>
-            체리홈타이는 건전한 웰니스 마사지 및 체형 관리 서비스를 지향하며 퇴폐, 불법 행위는 절대 엄금합니다.
+            플랙스홈타이는 건전한 웰니스 마사지 및 체형 관리 서비스를 지향하며 퇴폐, 불법 행위는 절대 엄금합니다.
           </p>
           <p>
             과도한 음주자나 비매너 고객의 경우 서비스 이용이 제한될 수 있습니다.
           </p>
           <p className="pt-2 text-zinc-400 font-mono">
-            © 2026 체리홈타이 ({data.mainKeyword}). All rights reserved.
+            © 2026 플랙스홈타이 ({data.mainKeyword}). All rights reserved.
           </p>
         </div>
 

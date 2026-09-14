@@ -27,7 +27,7 @@ export const FaqSection: React.FC<FaqProps> = ({ data }) => {
             {data.cityKo}출장마사지 자주 묻는 질문
           </h2>
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-normal">
-            체리홈타이 이용 전 가장 궁금해하시는 핵심 질문과 답변을 모았습니다.
+            플랙스홈타이 이용 전 가장 궁금해하시는 핵심 질문과 답변을 모았습니다.
           </p>
         </div>
 

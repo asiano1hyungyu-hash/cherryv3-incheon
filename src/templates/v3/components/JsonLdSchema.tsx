@@ -29,7 +29,7 @@ export const JsonLdSchema: React.FC<JsonLdProps> = ({ data }) => {
     '@context': 'https://schema.org',
     '@type': 'HealthAndBeautyBusiness',
     '@id': `${data.canonicalUrl.replace(/\/$/, '')}/#business`,
-    name: `체리홈타이 - ${data.mainKeyword}`,
+    name: `플랙스홈타이 - ${data.mainKeyword}`,
     url: data.canonicalUrl,
     telephone: data.phoneFormatted,
     priceRange: '₩70,000 - ₩180,000',
@@ -62,7 +62,7 @@ export const JsonLdSchema: React.FC<JsonLdProps> = ({ data }) => {
     serviceType: '방문 건식 마사지, 스웨디시 및 VIP 프리미엄 홈케어',
     provider: {
       '@type': 'Organization',
-      name: '체리홈타이',
+      name: '플랙스홈타이',
       url: data.canonicalUrl,
       telephone: data.phoneFormatted
     },
@@ -72,7 +72,7 @@ export const JsonLdSchema: React.FC<JsonLdProps> = ({ data }) => {
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: '체리홈타이 프로그램 메뉴',
+      name: '플랙스홈타이 프로그램 메뉴',
       itemListElement: data.courses.flatMap((c) =>
         c.prices.map((p) => ({
           '@type': 'Offer',
@@ -123,7 +123,7 @@ export const JsonLdSchema: React.FC<JsonLdProps> = ({ data }) => {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     url: data.domain,
-    name: `체리홈타이 - ${data.mainKeyword}`,
+    name: `플랙스홈타이 - ${data.mainKeyword}`,
     description: data.metaDescription,
     inLanguage: 'ko-KR'
   };

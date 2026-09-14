@@ -24,13 +24,13 @@ export const WhyUsSection: React.FC<WhyUsProps> = ({ data }) => {
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-950/50 border border-rose-800/30 text-rose-300 text-xs font-semibold">
             <Award className="w-3.5 h-3.5" />
-            <span>WHY CHOOSE CHERRY HOME THAI</span>
+            <span>WHY CHOOSE FLEX HOME THAI</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-            왜 {data.cityKo}출장마사지는 체리홈타이인가?
+            왜 {data.cityKo}출장마사지는 플랙스홈타이인가?
           </h2>
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-normal">
-            체리홈타이가 오랜 시간 고객님들께 높은 신뢰와 만족도를 인정받는 6가지 핵심 가치입니다.
+            플랙스홈타이가 오랜 시간 고객님들께 높은 신뢰와 만족도를 인정받는 6가지 핵심 가치입니다.
           </p>
         </div>
 

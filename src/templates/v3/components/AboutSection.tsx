@@ -36,7 +36,7 @@ export const AboutSection: React.FC<AboutProps> = ({ data }) => {
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-950/50 border border-rose-800/30 text-rose-300 text-xs font-semibold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>CHERRY HOME THAI SPECIAL CARE</span>
+            <span>FLEX HOME THAI SPECIAL CARE</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-white">
             {data.introTitle}
@@ -58,7 +58,7 @@ export const AboutSection: React.FC<AboutProps> = ({ data }) => {
                 </div>
                 <div>
                   <h3 className="text-base font-bold text-white">
-                    {data.cityKo}출장마사지 체리홈타이의 약속
+                    {data.cityKo}출장마사지 플랙스홈타이의 약속
                   </h3>
                   <p className="text-xs text-zinc-400">
                     안전하고 품격 있는 1:1 맞춤형 웰니스 테라피
